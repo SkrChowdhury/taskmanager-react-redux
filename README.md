@@ -18,13 +18,15 @@ A TaskManager application focused on managing project goals with CRUD (Create, R
 - **Redux Toolkit**: For state management, handling tasks, tags, and categories globally.
 - **Tailwind CSS**: For responsive styling across devices.
 - **JSON Server**: Used as a mock backend API to simulate data persistence.
-- **Open-source API (JSONPlaceholder/MockAPI)**: Integrated with JSON Server to simulate data storage and retrieval.
+- **Zod**: used zod for form validation.
 
 ## Folder Structure
 
+- **`src/assets`**: All assets.
 - **`src/components`**: All reusable components.
+- **`src/components\modals`**: All reusable modal components.
 - **`src/store`**: Redux setup for state management.
-- **`src/hooks`**: Custom hooks for managing specific functionality.
+- **`src/store/features`**: Redux slice for specific features.
 - **`src/types`**: TypeScript types and interfaces for data structures.
 - **`src/utils`**: Utility functions used throughout the app.
 

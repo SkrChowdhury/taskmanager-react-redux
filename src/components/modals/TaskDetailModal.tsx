@@ -1,11 +1,8 @@
 import React from "react";
-import { Task } from "../../types/TaskTypes";
+import {  TaskDetailModalProps } from "../../types/TaskTypes";
 import { CalendarIcon, DocumentTextIcon, ExclamationCircleIcon, TagIcon, XMarkIcon } from "@heroicons/react/24/outline";
 
-interface TaskDetailModalProps {
-  task: Task;
-  onClose: () => void;
-}
+
 
 const TaskDetailModal: React.FC<TaskDetailModalProps> = ({ task, onClose }) => {
   return (

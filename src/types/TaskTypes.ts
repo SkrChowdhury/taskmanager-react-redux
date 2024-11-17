@@ -47,3 +47,15 @@ export interface TaskModalProps {
 export interface TagFilterProps {
   uniqueTags: string[];
 }
+
+export interface ConfirmDeleteModalProps {
+  isOpen: boolean;
+  onClose: () => void;
+  onConfirm: () => void;
+}
+
+
+export interface TaskDetailModalProps {
+  task: Task;
+  onClose: () => void;
+}

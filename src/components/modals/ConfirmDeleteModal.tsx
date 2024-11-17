@@ -1,10 +1,7 @@
 import React from 'react';
+import { ConfirmDeleteModalProps } from '../../types/TaskTypes';
 
-interface ConfirmDeleteModalProps {
-  isOpen: boolean;
-  onClose: () => void;
-  onConfirm: () => void;
-}
+
 
 const ConfirmDeleteModal: React.FC<ConfirmDeleteModalProps> = ({ isOpen, onClose, onConfirm }) => {
   if (!isOpen) return null;
