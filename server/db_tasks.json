@@ -1,0 +1,105 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Complete project proposal",
+      "description": "Draft and finalize the project proposal document",
+      "dueDate": "2024-11-25",
+      "priority": "High",
+      "status": "In Progress",
+      "tags": ["Documentation", "Urgent"],
+      "category": "Planning"
+    },
+    {
+      "id": 2,
+      "title": "Design homepage layout",
+      "description": "Create the initial design for the homepage UI",
+      "dueDate": "2024-12-01",
+      "priority": "Medium",
+      "status": "Not Started",
+      "tags": ["Design", "UI"],
+      "category": "Design"
+    },
+    {
+      "id": 3,
+      "title": "Set up project repository",
+      "description": "Initialize the Git repository and set up project structure",
+      "dueDate": "2024-11-20",
+      "priority": "Low",
+      "status": "Completed",
+      "tags": ["Setup", "Backend"],
+      "category": "Development"
+    },
+    {
+      "id": 4,
+      "title": "Develop authentication module",
+      "description": "Implement user login, registration, and authentication",
+      "dueDate": "2024-11-30",
+      "priority": "High",
+      "status": "In Progress",
+      "tags": ["Authentication", "Security"],
+      "category": "Backend"
+    },
+    {
+      "id": 5,
+      "title": "Write unit tests for components",
+      "description": "Ensure coverage for all critical components",
+      "dueDate": "2024-12-10",
+      "priority": "Medium",
+      "status": "Not Started",
+      "tags": ["Testing", "Quality"],
+      "category": "Testing"
+    },
+    {
+      "id": 6,
+      "title": "Create deployment pipeline",
+      "description": "Set up CI/CD for automatic deployment to production",
+      "dueDate": "2024-12-05",
+      "priority": "High",
+      "status": "In Progress",
+      "tags": ["Deployment", "CI/CD"],
+      "category": "DevOps"
+    },
+    {
+      "id": 7,
+      "title": "Optimize database queries",
+      "description": "Refactor and optimize slow-running database queries",
+      "dueDate": "2024-12-08",
+      "priority": "High",
+      "status": "In Progress",
+      "tags": ["Optimization", "Database"],
+      "category": "Backend"
+    },
+    {
+      "id": 8,
+      "title": "Conduct usability testing",
+      "description": "Gather user feedback on UI and improve usability",
+      "dueDate": "2024-12-15",
+      "priority": "Medium",
+      "status": "Not Started",
+      "tags": ["UX", "Feedback"],
+      "category": "Testing"
+    },
+    {
+      "id": 9,
+      "title": "Implement dark mode feature",
+      "description": "Allow users to switch between light and dark mode",
+      "dueDate": "2024-12-12",
+      "priority": "Low",
+      "status": "In Progress",
+      "tags": ["Feature", "UI"],
+      "category": "Frontend"
+    },
+    {
+      "id": 10,
+      "title": "Prepare project presentation",
+      "description": "Create slides and practice project presentation",
+      "dueDate": "2024-12-20",
+      "priority": "High",
+      "status": "Not Started",
+      "tags": ["Presentation", "Documentation"],
+      "category": "Planning"
+    }
+  ]
+  
+}
