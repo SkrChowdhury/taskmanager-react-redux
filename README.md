@@ -2,6 +2,8 @@
 
 A TaskManager application focused on managing project goals with CRUD (Create, Read, Update, Delete) operations. This app allows users to manage goals by tagging them with categories, setting deadlines, and prioritizing them. It includes essential features like filtering, searching, and sorting, as well as additional UI enhancements such as notifications and dark mode.
 
+![alt text](https://raw.githubusercontent.com/SkrChowdhury/taskmanager-react-redux/refs/heads/main/src/assets/images/project-image.png)
+
 ## Features
 
 - **Task Management**: Perform CRUD operations on tasks.
